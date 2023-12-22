@@ -6,6 +6,7 @@ import { SlBadge } from "react-icons/sl";
 const Navbar = () => {
   const { user, logOut } = Context();
   return (
+    
     <div className="navbar  bg-opacity-30 bg-black text-white">
       <div className="flex items-center mr-10  ">
         <Link to={"/"} className="flex w-24 text-xl items-center font-bold ">
